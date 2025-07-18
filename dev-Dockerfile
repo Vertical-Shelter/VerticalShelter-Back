@@ -1,0 +1,28 @@
+FROM python:3.12.9
+
+# Set the working directory to /app
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y gcc libpq-dev gcc
+
+# Copy requirements first for better caching
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install -r requirements.txt
+
+# Copy the application code to /app
+COPY app/ ./app/
+
+COPY static ./static
+
+# Expose port 4444
+EXPOSE 4444
+
+# Ensuring stdout and stderr are unbuffered
+ENV PYTHONUNBUFFERED=1
+ENV PROMETHEUS_MULTIPROC_DIR=/tmp/prometheus_multiproc
+ENV ENV_MODE=dev
+
+# Command to run the application
+CMD [ "hypercorn", "--bind", ":4444", "app.main:app", "--workers", "1" ]

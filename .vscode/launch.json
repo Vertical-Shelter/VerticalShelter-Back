@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\spompe\\website\\manage.py",
+            "args": [
+                "runserver",
+                "--noreload"
+            ],
+            "python": "${workspaceFolder}\\Scripts\\python.exe",
+            "django": true,
+            "stopOnEntry": false,
+        }
+    ]
+}

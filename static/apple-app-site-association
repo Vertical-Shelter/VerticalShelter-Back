@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "8D6S67R2X8.com.VerticalShelter.app",
+                "paths": [ "/app/vt_wall_screen*", "/app/vt_main_page*", "/app/contest_detail*", "/app/fallbacks*" ]
+            }
+        ]
+    }
+}

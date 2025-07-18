@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.VerticalShelter.app",
+      "sha256_cert_fingerprints":
+      ["5E:B4:FF:30:06:D3:29:D7:6F:CD:69:22:E3:5D:97:7F:B4:BC:B4:60:7F:22:5B:F4:86:A7:B0:EB:4B:F6:B1:76"]
+    }
+  }]

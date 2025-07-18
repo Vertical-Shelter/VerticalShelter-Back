@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Make Migrations",
+            "type": "shell",
+            "command": "${workspaceFolder}/spompe/website/manage.py",
+            "args": [
+                "makemigrations"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
+        }
+    ]
+}

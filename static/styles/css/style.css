@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'DaxCompact-Black-Regular'; /* Name your font family */
+  src: url('../font/daxcompact-black.ttf'); /* Locate the .ttf file within your directory*/
+}
+
+.box {
+    position: relative;
+    width: 375px;
+    height: 284px;
+  }
+  
+  .box .group {
+    position: fixed;
+    width: 379px;
+    height: 284px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    width: 375px;
+    top: 0;
+    left: 0;
+    font-family: "DaxCompact-Black-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .chaque-salle {
+    position: absolute;
+    width: 375px;
+    top: 29px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .span {
+    color: #ff0046;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #ffffff;
+  }
+  
+  .box .text-wrapper-3 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
