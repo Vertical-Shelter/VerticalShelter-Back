@@ -126,7 +126,7 @@ You may **not**:
 - Use the code in a commercial product or service without explicit permission
 - Redistribute or resell the backend or derivatives
 
-> 📬 For commercial licensing, please contact: **vertical.shelter.app@gmail.com**
+> 📬 For commercial licensing, please contact: **ludovik.maitre@gmail.com**
 
 See the full terms in the [`LICENSE`](./LICENSE) file.
 
